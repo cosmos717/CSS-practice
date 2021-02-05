@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    .userMsgBottom {
+      position: relative;
+      display: inline-block;
+      color:#fff;
+      max-width: 260px;
+      background-color: #2e7384;
+      margin: 12px 8px 0;
+      padding: 7px;
+      border-radius: 6px;
+      border: solid red 2px;
+    }
+
+    .userMsgBottom:after {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      right: -23px;
+      width: 30px;
+      height: 25px;
+      background: radial-gradient(circle at top right, transparent 58%, #2e7384 60%);
+      border:yellow 3px solid;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="userMsgBottom">
+  Some text here<br> Some text here<br> Some text here
+    </div>
+  </body>
+</html>
